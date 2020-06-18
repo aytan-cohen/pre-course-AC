@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style.css" rel="stylesheet" />
+    <title>Contact Me</title>
+</head>
+<body>
+    <section>
+        <div class="page-wrapper">
+          <div class="card">
+            <nav>
+              <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+              </ul>
+            </nav>
+            <img
+              id="profile-image"
+              src="./images/DSC00380.JPG"
+              alt="Israel Tech Challenge"
+              class="profile-image"
+            />
+            <div class="name">
+                <h1 id="my-name">Contact</h1>
+                <section>
+                  <form action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES" method="POST">
+                    <input type="hidden" 
+                      name="send_to" 
+                      value="ayecohen21@gmail.com"
+                    >
+
+                    <fieldset>
+                    <legend>Contact Form</legend>
+                    <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="fname" placeholder="John">
+                    <label for="lname">Last Name</label>
+                      <input type="text" id="lname" name="lname" placeholder="Smith">
+                    <label for="email">Email</label>
+                      <input type="email" id="email" name="email" placeholder="JohnSmith@email.com">
+                      <label for="comments">Comment</label>
+                      <textarea id="comments" name="comments">Please type in your comments...</textarea>
+                      <label for="input">Your Input:</label>
+                        <input type="text" id="input" name="input" placeholder="Your input here">
+                  </form>
+                </fieldset>
+                  <button type="submit">Submit</button>
+                </section>
+            </div>
+            <div class="work-links">
+                <a href="https://www.linkedin.com/in/aytanrcohen/"><img src="./images/linkedin.png" class="personal-links"></a>
+                <a href="https://github.com/aytan-cohen"><img src="./images/github.png" class="personal-links"></a>
+                <a href="https://stackoverflow.com/users/story/12475842"><img src="./images/stackoverflow.png" class="personal-links"></a>
+            </div>
+          </div>
+          <footer>This page was built using: HTML, CSS, and JavaScript</footer>
+        </div>
+      </section>
+      <script src="./js/portfolio.js"></script>
+</body>
+</html>

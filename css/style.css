@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to bottom right, lightgray, white);
+  font-family: 'Chelsea Market', cursive;
+  font-size: 16px;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline-block;
+}
+
+nav li a:hover{
+  color: forestgreen;
+}
+
+nav a {
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+
+.my-name {
+  text-align: center;
+}
+.personal-links {
+  max-height: 1.5rem;
+}
+a {
+  text-decoration: none;
+}
+a.work-links {
+  display: inline-block;  
+  text-decoration: none;
+  display: block;
+}
+a.personal-links {
+  text-decoration: none;
+}
+
+.card {
+  align-items: center;
+  background-image: linear-gradient(to bottom right, white, lightgray);
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+  padding: 50px;
+  max-width: 900px;
+}
+
+.nav-item {
+  align-self: flex-end;
+  color: #3d6ded;
+  font-size: 18px;
+  margin: 15px;
+  text-decoration: none;
+}
+
+.page-wrapper {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image {
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  font-size: 32px;
+  height: 180px;
+  margin: 50px;
+  width: 180px;
+}
